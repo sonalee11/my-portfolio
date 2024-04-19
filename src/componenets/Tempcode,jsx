@@ -1,0 +1,221 @@
+// home
+
+// import React from 'react'
+// import './Home.css'
+// import Type from './Type'
+// import gif2 from '../assets/gif_2.gif'
+// import homeSvg from '../assets/home-main.svg'
+
+// const Home = () => {
+//   return (
+//     <main>
+//       <section className='bg_img'>
+//         <div style={{display:'flex',justifyContent:'center',gap:'12%'}}>
+//         <div style={{color:'wheat', fontSize: '2.6em',fontWeight:'bolder',fontFamily:'revert-layer',paddingLeft:'1.8rem',paddingTop:'12%'}}>
+//         <h1>Hi There! <span className='animate__animated animate__shakeX'>👋🏻</span></h1>
+//         <h1>I'M <span style={{color:'#D896FF',fontWeight:'bolder'}}>MOHTASHIM MAAZ</span></h1>
+//         <div style={{marginTop:'10%',color:'#D896FF'}}>
+//         <Type />
+//         </div>
+
+//         </div>
+//         <div>
+//         <img src={homeSvg} alt="" style={{height:'75vh',paddingTop:'20%'}}/>
+//         </div>
+//         </div>
+    
+//       </section>
+   
+      
+
+//     </main>
+    
+//   )
+// }
+
+// export default Home
+////////////////////////////////////////////
+
+// home
+
+// import React from 'react'
+// import './Home.css'
+// import Type from './Type'
+// import gif2 from '../assets/gif_2.gif'
+
+// const Home = () => {
+//   return (
+//     <div>
+//       <div className="bg_img flex text-red-100 gap-20">
+//         <div className='text-3xl font-semibold'>
+//         <h1>hii there!</h1>
+//         <h1>I am Mohtashim Maaz</h1>
+//         <Type />
+
+//         </div>
+//         <div>
+//           <p >
+//             i'am a passionate Mern Stack web developer, <br />
+//             i have knowledge in html, css, javascript, bootstrap, react js <br />
+//             iam still learning the backend technologies, but i know frontend <br /> technologies.. 
+//             i have build several projects in mern stack & React js.
+//           </p>
+//         </div>
+//       </div>
+      
+
+//     </div>
+    
+//   )
+// }
+
+// export default Home
+
+// home
+
+
+// import React from 'react';
+// import './Home.css';
+// import Type from './Type';
+// import homeSvg from '../assets/home-main.svg';
+// import homeOne from '../assets/one.jpg'
+// import Particle from './Particle';
+
+// const Home = () => {
+//   return (
+//     <main>
+      
+//       <section>
+//         <div className='flex justify-center gap-[12%]'>
+//           <Particle />
+//         {/* style={{display:'flex',justifyContent:'center',gap:'12%'}} */}
+//           <div style={{color:'wheat', fontSize: '2.6em',fontWeight:'bolder',fontFamily:'revert-layer',paddingLeft:'1.8rem',paddingTop:'12%'}}>
+//             <h1>Hi There! <span className='animate__animated animate__shakeX'>👋🏻</span></h1>
+//             <h1>I'M <span style={{color:'#E6E6E6',fontWeight:'bolder'}}>MOHTASHIM MAAZ</span></h1>
+//             <div style={{marginTop:'10%',color:'#E6E6E6'}}>
+//               <Type />
+//             </div>
+//           </div>
+//           <div>
+//             <img src={homeSvg} alt="" style={{height:'75vh',paddingTop:'20%'}}/>
+//           </div>
+//         </div>
+        
+//         <div className='flex mt-[5%] ml-[11%] gap-[10%] text-slate-50'>
+//         <div className=''>
+//           <img src={homeOne} alt="" className='h-96'/>
+//         </div>
+      
+    
+//       <div className=''>
+//       <h1 className='text-amber-300' style={{fontSize:'3em',fontWeight:'bold',fontFamily:'revert'}}>About Me</h1>
+//           <p style={{color:'wheat', fontWeight:'bold',fontSize:'1.5em',lineHeight:'2.8rem',marginBottom:'2%'}}>
+//             <h1 className='text-lime-200' style={{fontSize:'1.2em',marginBottom:'1.6%',marginTop:'1.6%'}}>Let Me Introduce Myself</h1>
+//             I'm a passionate Mern Stack web developer, <br />
+//             I have knowledge in HTML, CSS, JavaScript, Bootstrap, React JS <br />
+//             I am still learning the backend technologies, but i know frontend <br /> technologies.. 
+//             I have build several projects in MERN Stack & React JS.
+//           </p>
+         
+//       </div>
+    
+    
+//     </div>
+       
+//       </section>
+//     </main>
+//   );
+// };
+
+// export default Home;
+
+///////////////////////////////////////////////////////////////////
+
+// TechStack
+
+///////////////////////////////////////////////////////////////////
+// import React from "react";
+// import { FaHtml5 } from "react-icons/fa";
+// import { LiaCss3Alt } from "react-icons/lia";
+// import { FaBootstrap } from "react-icons/fa";
+// import { SiTailwindcss } from "react-icons/si";
+// import { TbBrandVscode } from "react-icons/tb";
+// import { SiPostman } from "react-icons/si";
+// import { SiPycharm } from "react-icons/si";
+// import { SiPandas } from "react-icons/si";
+// import {
+//   DiJavascript1,
+//   DiReact,
+//   DiNodejs,
+//   DiMongodb,
+//   DiPython,
+//   DiGit,
+// } from "react-icons/di";
+
+// function Techstack() {
+//   return (
+// <>
+//     <section className="text-slate-50 flex flex-col items-center" >
+//     {/* style={{color:'white',display:'flex',flexDirection:'column',alignItems:'center'}} */}
+//     <div>
+    
+//       <h1 className="text-5xl text-center my-10">Professional <span className="text-amber-300">Skillset</span></h1>
+//       <div className="flex flex-col gap-12 mt-14">
+//       <ul className="flex gap-[6rem] text-7xl">
+
+//         <li className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md"><DiJavascript1 /></li>
+
+//         <li className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md"><DiNodejs /></li>
+
+//         <li className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md"><DiGit /></li>
+
+//         <li className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md"><DiReact /></li>
+
+//       </ul>
+//       <ul className="flex gap-[6rem] text-7xl">
+
+//         <li className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md"><DiMongodb /></li>
+        
+//         <li className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md"><DiPython /></li>
+
+//         <li className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md"><FaHtml5 /></li>
+
+//         <li className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md"><LiaCss3Alt /></li>
+
+//       </ul>
+
+//       <ul className="flex gap-[6rem] text-7xl justify-center">
+
+//         <li className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md"><FaBootstrap /></li>
+
+//         <li className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md"><SiTailwindcss /></li>
+
+//         <li className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md"><SiPandas /></li>
+
+//       </ul>
+      
+//       </div>
+//     </div>
+
+//     <div>
+//     <h1 className="text-5xl text-center my-10">Tools</h1>
+
+//       <div className="flex flex-col gap-12 mt-10">
+//         <ul className="flex gap-[6rem] text-7xl">
+
+//           <li className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md"><TbBrandVscode /></li>
+
+//           <li className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md"><SiPostman /></li>
+
+//           <li className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md"><SiPycharm /></li>
+
+//         </ul>
+//       </div> 
+//     </div>
+//     </section>
+//     </>
+
+//   );
+// }
+
+// export default Techstack;
