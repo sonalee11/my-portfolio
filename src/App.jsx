@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './componenets/Navbar';
 import About from "./componenets/About"
-import Projects from './componenets/Projects';
+import ProjectsPage from './Pages/ProjectsPage';
 import Resume from './componenets/Resume';
 import Home from './componenets/Home';
 import './index.css'
@@ -16,7 +16,7 @@ const App = () => {
       <Routes>
        <Route path='/' element={<Home />}/>
        <Route path='/about' element={<About />}/>
-       <Route path='/projects' element={<Projects />}/>
+       <Route path='/projects' element={<ProjectsPage />}/>
        <Route path='/resume' element={<Resume />}/>
      </Routes>
    </BrowserRouter>

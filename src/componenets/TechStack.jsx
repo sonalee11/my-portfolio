@@ -102,12 +102,12 @@ function TechStack() {
               </motion.li>
             </ul>
 
-            <ul className="flex gap-[6rem] text-7xl justify-center">
+            <ul className="flex gap-[6rem] text-7xl justify-center mr-[35rem]">
               <motion.li
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.9 }}
-                className="border-2 border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md hover:border-b-2 hover:border-purple-600"
+                className="border-2  border-amber-300 py-[1.6rem] px-[3.5rem] rounded-md hover:border-b-2 hover:border-purple-600"
               >
                 <FaBootstrap />
               </motion.li>
